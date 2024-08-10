@@ -12,3 +12,15 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello Me!"
+  date_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Say date
+        run: |
+          echo date
+  list_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Say list
+        run: |
+          echo ls
