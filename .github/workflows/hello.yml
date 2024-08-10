@@ -17,10 +17,10 @@ jobs:
     steps:
       - name: Say date
         run: |
-          echo date
+          date
   list_job:
     runs-on: ubuntu-20.04
     steps:
       - name: Say list
         run: |
-          echo ls
+          ls
